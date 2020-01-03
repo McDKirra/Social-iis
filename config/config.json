@@ -5,14 +5,14 @@
     "social-iis-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/socialIis/SocialIisWebPart.js",
-          "manifest": "./src/webparts/socialIis/SocialIisWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/socialIis/SocialiisWebPart.js",
+          "manifest": "./src/webparts/socialIis/SocialiisWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SocialIisWebPartStrings": "lib/webparts/socialIis/loc/{locale}.js"
+    "SocialiisWebPartStrings": "lib/webparts/socialiis/loc/{locale}.js"
   }
 }
