@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "social-iis-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/socialIis/SocialIisWebPart.js",
+          "manifest": "./src/webparts/socialIis/SocialIisWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SocialIisWebPartStrings": "lib/webparts/socialIis/loc/{locale}.js"
+  }
+}
